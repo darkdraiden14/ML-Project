@@ -1,8 +1,5 @@
 import numpy as np
 
-
-for low in range(100,125):
-    high= low +80
-    arr=np.arange(low,high,5).reshape(8,2)
-    print()
-    print(arr)
+low=int(input("Enter the First element (100-124):"))
+arr=np.arange(low,low+80,5).reshape(8,2)
+print(arr)
